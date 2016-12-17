@@ -17,7 +17,13 @@
 </head>
 <body>
     <header>
-        <img src="img/club-logo.png">
+
+        <div id="share-buttons">
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=See how much Tevez has earned at http://test.com">Tweet</a>
+            <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftest.com&layout=button&size=small&mobile_iframe=true&width=57&height=20&appId" width="57" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+        
+        <img src="img/club-logo.png" id="club-logo">
         <h1>Tevez has earned <span id="earned-amount">___</span> since he joined FC <span id="since-visited">(<span id="earned-amount-since-visited">___ </span> since you visited this site)</span></h1>
     </header>
     
@@ -102,5 +108,6 @@
 	</section> <!-- cd-timeline -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
