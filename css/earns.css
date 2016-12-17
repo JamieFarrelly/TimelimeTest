@@ -1,0 +1,29 @@
+.fa-timeline {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -24%;
+    margin-top: 30%;
+    color: white;
+    font-size: 24px !important;
+}
+
+#since-visited {
+    font-size: 15px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .fa-timeline {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        margin-left: -40%;
+        margin-top: 20%;
+        color: white;
+        font-size: 24px !important;
+    }
+}
