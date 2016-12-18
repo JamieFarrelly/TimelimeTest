@@ -9,6 +9,17 @@
     font-size: 24px !important;
 }
 
+.fa-timeline-large-width {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    margin-top: 30%;
+    color: white;
+    font-size: 24px !important;
+}
+
 #since-visited {
     font-size: 15px;
 }
@@ -28,6 +39,17 @@
         left: 50%;
         top: 50%;
         margin-left: -30%;
+        margin-top: 20%;
+        color: white;
+        font-size: 24px !important;
+    }
+    
+    .fa-timeline-large-width {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        margin-left: -38%;
         margin-top: 20%;
         color: white;
         font-size: 24px !important;
