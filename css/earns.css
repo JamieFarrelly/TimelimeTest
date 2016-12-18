@@ -13,6 +13,12 @@
     font-size: 15px;
 }
 
+@media (min-width: 700px) {
+
+    .gifs {
+        margin-left: 30%;
+    }
+}
 
 @media (max-width: 1024px) {
 
